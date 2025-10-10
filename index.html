@@ -49,50 +49,27 @@
       color: white;
       text-decoration: none;
     }
-    .dashboard-tile {
-      flex: 1;
-      min-width: 250px;
-      background: #fff;
-      padding: 15px;
-      border: 1px solid #ccc;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .dashboard-tile:hover {
-      transform: scale(1.03);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
     img.dashboard {
       width: 100%;
       border: 1px solid #ccc;
       margin-top: 15px;
     }
-    .filters {
-      margin: 20px 0;
+    form {
+      margin-top: 20px;
     }
-    .filter-button {
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
       background-color: #2c3e50;
       color: white;
       border: none;
-      padding: 8px 12px;
-      margin-right: 10px;
       cursor: pointer;
-      border-radius: 4px;
-    }
-    iframe.resume-viewer {
-      width: 100%;
-      height: 600px;
-      border: 1px solid #ccc;
-      margin-top: 20px;
-    }
-    .connect {
-      background-color: #f9f9f9;
-      padding: 20px;
-      border: 1px solid #ccc;
-    }
-    .connect a {
-      color: #2c3e50;
-      text-decoration: none;
-      font-weight: bold;
     }
 
     @media (max-width: 600px) {
@@ -163,17 +140,17 @@
   <section class="section" id="portfolio">
     <h2>📊 Portfolio Highlights</h2>
     <div style="display:flex; flex-wrap:wrap; gap:20px;">
-      <div class="dashboard-tile">
+      <div style="flex:1; min-width:250px; background:#fff; padding:15px; border:1px solid #ccc;">
         <h3>Workforce Dashboard Automation</h3>
         <p>Integrated SQL, Power BI, and Smartsheet to track KPIs across programs.</p>
         <a href="https://github.com/olayideibironke/workforce-dashboard" target="_blank">View Project</a>
       </div>
-      <div class="dashboard-tile">
+      <div style="flex:1; min-width:250px; background:#fff; padding:15px; border:1px solid #ccc;">
         <h3>Equity-Focused SOPs</h3>
         <p>Embedded compliance and equity safeguards into hiring and outreach workflows.</p>
         <a href="https://github.com/olayideibironke/equity-sops" target="_blank">View Project</a>
       </div>
-      <div class="dashboard-tile">
+      <div style="flex:1; min-width:250px; background:#fff; padding:15px; border:1px solid #ccc;">
         <h3>Cross-Agency Data Harmonization</h3>
         <p>Standardized definitions and reporting formats across health and workforce systems.</p>
         <a href="https://github.com/olayideibironke/data-harmonization" target="_blank">View Project</a>
@@ -199,10 +176,22 @@
         </ul>
       </li>
     </ul>
-    <iframe src="Olayide_Ibironke_Resume.pdf" class="resume-viewer" title="Resume Viewer"></iframe>
+    <p><a href="Olayide_Ibironke_Resume.pdf" download>📄 Download My Resume</a></p>
   </div>
 
   <div class="section" id="blog">
     <h2>📝 Blog & Insights</h2>
-    <h3>Equity-Driven Data Strategy: Why It Matters</h3>
-    <p>In public service, data isn't just numbers—it's a reflection of lives, access, and opportunity. Equity-driven data
+    <p>Coming soon: tutorials, case studies, and reflections on data ethics, public sector innovation, and cloud engineering.</p>
+  </div>
+
+  <div class="section" id="dashboard">
+    <h2>📈 Dashboard Preview</h2>
+    <p>Explore a sample dashboard below:</p>
+    <img src="dashboard-preview.png" alt="Sample Data Dashboard" class="dashboard">
+    <p style="font-style:italic; color:#555;">This is a static preview. Live Power BI integration coming soon.</p>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>🌐 Connect With Me</h2>
+    <p>Let’s build systems that matter.</p>
+    <p>📧 <a href="mailto:olayideibironke@aol.com">olayideibironke@a
