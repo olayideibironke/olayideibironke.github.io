@@ -117,7 +117,44 @@
       <h3>Cross-Agency Data Harmonization</h3>
       <p>Standardized definitions and reporting formats across health and workforce systems.</p>
     </div>
-    
+    <div class="section" id="dashboard">
+  <h2>📈 Dashboard Preview</h2>
+  <p>Explore key metrics by category:</p>
+
+  <div class="filters">
+    <button class="filter-button" onclick="showDashboard('equity')">Equity Metrics</button>
+    <button class="filter-button" onclick="showDashboard('finance')">Financial Trends</button>
+    <button class="filter-button" onclick="showDashboard('workforce')">Workforce KPIs</button>
+  </div>
+
+  <div id="equity" class="dashboard-tile" style="display:block;">
+    <h3>Equity Metrics</h3>
+    <img src="dashboard-preview.png" alt="Equity Dashboard" class="dashboard" style="width:100%; border:1px solid #ccc; margin-top:15px;">
+    <p style="font-style:italic; color:#555;">Visualizing equity ratios, outreach gaps, and inclusion scores.</p>
+  </div>
+
+  <div id="finance" class="dashboard-tile" style="display:none;">
+    <h3>Financial Trends</h3>
+    <img src="dashboard-preview.png" alt="Finance Dashboard" class="dashboard" style="width:100%; border:1px solid #ccc; margin-top:15px;">
+    <p style="font-style:italic; color:#555;">Tracking receivables, payables, and debt-to-equity ratios.</p>
+  </div>
+
+  <div id="workforce" class="dashboard-tile" style="display:none;">
+    <h3>Workforce KPIs</h3>
+    <img src="dashboard-preview.png" alt="Workforce Dashboard" class="dashboard" style="width:100%; border:1px solid #ccc; margin-top:15px;">
+    <p style="font-style:italic; color:#555;">Monitoring hiring velocity, retention, and program coverage.</p>
+  </div>
+</div>
+
+<script>
+  function showDashboard(section) {
+    document.getElementById('equity').style.display = 'none';
+    document.getElementById('finance').style.display = 'none';
+    document.getElementById('workforce').style.display = 'none';
+    document.getElementById(section).style.display = 'block';
+  }
+</script>
+
   </div>
 
   <div class="section" id="contact">
