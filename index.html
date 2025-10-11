@@ -3,29 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>Olayide Ibironke | Data Scientist & Strategic Leader</title>
-  <meta name="description" content="Olayide Ibironke – Strategic Data & Operations Leader, Data Scientist, and Public Sector Innovator. Explore my portfolio, resume, and insights.">
-  <meta name="keywords" content="Olayide Ibironke, Data Analyst, Data Scientist, Public Sector, Power BI, SQL, Python, Equity Advocate, Resume, Portfolio">
+  <meta name="description" content="Portfolio of Olayide Ibironke – Strategic Data & Operations Leader, Data Scientist, and Public Sector Innovator.">
+  <meta name="keywords" content="Olayide Ibironke, Data Analyst, Data Scientist, Power BI, SQL, Public Sector, Resume, Portfolio">
   <meta name="author" content="Olayide Ibironke">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 40px;
+      max-width: 900px;
       line-height: 1.6;
-      max-width: 800px;
     }
     h1, h2 {
       color: #2c3e50;
-    }
-    .contact {
-      font-size: 0.95em;
-      margin-bottom: 20px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .section {
-      margin-top: 30px;
     }
     nav {
       background-color: #2c3e50;
@@ -38,57 +28,60 @@
       margin: 0 15px;
       text-decoration: none;
     }
-    footer {
-      background-color: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 20px;
+    .section {
       margin-top: 40px;
     }
-    footer a {
+    .dashboard-tile {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .dashboard-tile:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .filters {
+      margin: 20px 0;
+    }
+    .filter-button {
+      background-color: #2c3e50;
       color: white;
-      text-decoration: none;
+      border: none;
+      padding: 8px 12px;
+      margin-right: 10px;
+      cursor: pointer;
+      border-radius: 4px;
     }
     img.dashboard {
       width: 100%;
       border: 1px solid #ccc;
       margin-top: 15px;
     }
-    form {
+    iframe.resume-viewer {
+      width: 100%;
+      height: 600px;
+      border: 1px solid #ccc;
       margin-top: 20px;
     }
-    input, textarea {
-      width: 100%;
-      padding: 8px;
-      margin-top: 5px;
-      margin-bottom: 15px;
+    .connect {
+      background-color: #f9f9f9;
+      padding: 20px;
       border: 1px solid #ccc;
-      border-radius: 4px;
     }
-    input[type="submit"] {
-      background-color: #2c3e50;
-      color: white;
-      border: none;
-      cursor: pointer;
+    .connect a {
+      color: #2c3e50;
+      text-decoration: none;
+      font-weight: bold;
     }
-
     @media (max-width: 600px) {
       body {
         margin: 20px;
         font-size: 16px;
       }
-      nav {
-        flex-direction: column;
-      }
       nav a {
         display: block;
         margin: 10px 0;
-      }
-      .section {
-        margin-top: 20px;
-      }
-      .contact {
-        font-size: 0.9em;
       }
     }
   </style>
@@ -105,93 +98,66 @@
   </nav>
 
   <h1>🌟 Olayide Ibironke</h1>
-  <p><strong>Strategic Data & Operations Leader, Public Sector Innovator, Equity Advocate</strong></p>
-  <p class="contact">
-    📍 D.C./Maryland | ✉️ <a href="mailto:olayideibironke@aol.com">olayideibironke@aol.com</a> | 📞 929-216-1855 |
-    🔗 <a href="https://www.linkedin.com/in/olayide-ibironke-5b376b196" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/olayideibironke" target="_blank">GitHub</a>
-  </p>
+  <p><strong>Strategic Data & Operations Leader | Public Sector Innovator | Equity Advocate</strong></p>
 
   <div class="section" id="welcome">
     <h2>👋 Welcome</h2>
-    <p>I’m Olayide, a resilient, results-driven leader with 8+ years of experience in data analysis, regulatory compliance, and operational strategy. I specialize in building systems that empower public service, drive equity, and deliver measurable impact.</p>
+    <p>I specialize in building systems that empower public service, drive equity, and deliver measurable impact. Explore my work, insights, and dashboards below.</p>
   </div>
 
-  <div class="section">
-    <h2>💼 What I Do</h2>
-    <ul>
-      <li><strong>Roles:</strong> Senior Data Analyst, Data Scientist, Program Analyst</li>
-      <li><strong>Data Tools:</strong> Python (pandas, NumPy), SQL, Power BI, Excel (Advanced), Tableau, Smartsheet</li>
-      <li><strong>Compliance & Governance:</strong> SOP Development, Data Privacy & Ethics, Regulatory Reporting</li>
-      <li><strong>Leadership & Strategy:</strong> Cross-functional Facilitation, Project Management, Stakeholder Engagement</li>
-      <li><strong>Legal & Historical Analysis:</strong> Asylum Documentation, Privacy Strategy, Historical Research</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>🧠 Strengths</h2>
-    <ul>
-      <li>Thrive under pressure, delivering clarity and results in high-stakes environments</li>
-      <li>Lead and manage teams of all sizes with empathy and precision</li>
-      <li>Exceptional communicator and educator, translating complexity into actionable insight</li>
-    </ul>
-  </div>
-
-  <section class="section" id="portfolio">
+  <div class="section" id="portfolio">
     <h2>📊 Portfolio Highlights</h2>
-    <div style="display:flex; flex-wrap:wrap; gap:20px;">
-      <div style="flex:1; min-width:250px; background:#fff; padding:15px; border:1px solid #ccc;">
-        <h3>Workforce Dashboard Automation</h3>
-        <p>Integrated SQL, Power BI, and Smartsheet to track KPIs across programs.</p>
-        <a href="https://github.com/olayideibironke/workforce-dashboard" target="_blank">View Project</a>
-      </div>
-      <div style="flex:1; min-width:250px; background:#fff; padding:15px; border:1px solid #ccc;">
-        <h3>Equity-Focused SOPs</h3>
-        <p>Embedded compliance and equity safeguards into hiring and outreach workflows.</p>
-        <a href="https://github.com/olayideibironke/equity-sops" target="_blank">View Project</a>
-      </div>
-      <div style="flex:1; min-width:250px; background:#fff; padding:15px; border:1px solid #ccc;">
-        <h3>Cross-Agency Data Harmonization</h3>
-        <p>Standardized definitions and reporting formats across health and workforce systems.</p>
-        <a href="https://github.com/olayideibironke/data-harmonization" target="_blank">View Project</a>
-      </div>
+    <div class="dashboard-tile">
+      <h3>Workforce Dashboard Automation</h3>
+      <p>Integrated SQL, Power BI, and Smartsheet to track KPIs across programs.</p>
+      <a href="https://github.com/olayideibironke/workforce-dashboard" target="_blank">View Project</a>
     </div>
-  </section>
+    <div class="dashboard-tile">
+      <h3>Equity-Focused SOPs</h3>
+      <p>Embedded compliance and equity safeguards into hiring and outreach workflows.</p>
+      <a href="https://github.com/olayideibironke/equity-sops" target="_blank">View Project</a>
+    </div>
+    <div class="dashboard-tile">
+      <h3>Cross-Agency Data Harmonization</h3>
+      <p>Standardized definitions and reporting formats across health and workforce systems.</p>
+      <a href="https://github.com/olayideibironke/data-harmonization" target="_blank">View Project</a>
+    </div>
+  </div>
 
   <div class="section" id="resume">
-    <h2>🎓 Education & Certifications</h2>
-    <ul>
-      <li><strong>B.Sc. Electrical Engineering</strong> – Ladoke Akintola University of Technology</li>
-      <li><strong>Diploma in IT Management</strong> – Alison, 2025</li>
-      <li><strong>Certifications:</strong>
-        <ul>
-          <li>Google Cloud Data Engineer (GCP)</li>
-          <li>Microsoft Azure Administrator</li>
-          <li>AWS AI Practitioner</li>
-          <li>Data Protection Officer Training</li>
-          <li>Advanced Excel & Power BI</li>
-          <li>AI in Information Technology</li>
-          <li>Public Sector Leadership</li>
-          <li>Data Privacy & Ethics</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="Olayide_Ibironke_Resume.pdf" download>📄 Download My Resume</a></p>
+    <h2>🎓 Resume & Certifications</h2>
+    <iframe src="Olayide_Ibironke_Resume.pdf" class="resume-viewer" title="Resume Viewer"></iframe>
   </div>
 
   <div class="section" id="blog">
     <h2>📝 Blog & Insights</h2>
-    <p>Coming soon: tutorials, case studies, and reflections on data ethics, public sector innovation, and cloud engineering.</p>
+    <h3>Equity-Driven Data Strategy: Why It Matters</h3>
+    <p>In public service, data isn't just numbers—it's a reflection of lives, access, and opportunity. Equity-driven data strategy means designing systems that illuminate disparities, empower communities, and guide ethical decision-making. From workforce dashboards to privacy protocols, I build tools that prioritize inclusion and transparency.</p>
   </div>
 
   <div class="section" id="dashboard">
     <h2>📈 Dashboard Preview</h2>
     <p>Explore a sample dashboard below:</p>
+    <div class="filters">
+      <button class="filter-button">All KPIs</button>
+      <button class="filter-button">Equity Metrics</button>
+      <button class="filter-button">Financial Trends</button>
+      <button class="filter-button">Workforce Data</button>
+    </div>
     <img src="dashboard-preview.png" alt="Sample Data Dashboard" class="dashboard">
     <p style="font-style:italic; color:#555;">This is a static preview. Live Power BI integration coming soon.</p>
   </div>
 
   <div class="section" id="contact">
     <h2>🌐 Connect With Me</h2>
-    <p>Let’s build systems that matter.</p>
-    <p>📧 <a href="mailto:olayideibironke@aol.com">olayideibironke@a
+    <div class="connect">
+      <p>Let's build systems that matter.</p>
+      <p>📧 Email: <a href="mailto:olayideibironke@aol.com">olayideibironke@aol.com</a></p>
+      <p>📞 Phone: <a href="tel:+19292161855">929-216-1855</a></p>
+      <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/olayide-ibironke-5b376b196" target="_blank">linkedin.com/in/olayide-ibironke</a></p>
+      <p>💻 GitHub: <a href="https://github.com/olayideibironke" target="_blank">github.com/olayideibironke</a></p>
+    </div>
+  </div>
+
+</body>
+</html>
