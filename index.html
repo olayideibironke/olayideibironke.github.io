@@ -8,6 +8,9 @@
   <meta name="author" content="Olayide Ibironke">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
     body {
       font-family: Arial, sans-serif;
       margin: 40px;
@@ -51,6 +54,22 @@
       text-decoration: none;
       font-weight: bold;
     }
+    .filter-button {
+      background-color: #2c3e50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .filter-button:hover {
+      background-color: #34495e;
+    }
+    .filter-button.active {
+      background-color: #1abc9c;
+    }
     @media (max-width: 600px) {
       body {
         margin: 20px;
@@ -93,22 +112,22 @@
   </div>
 
   <div class="section" id="strengths">
-    <h2>🧠 Strengths</h2>
-    <ul>
-      <li>Thrive under pressure, delivering clarity and results in high-stakes environments</li>
-      <li>Lead and manage teams of all sizes with empathy and precision</li>
-      <li>Exceptional communicator and educator, translating complexity into actionable insight</li>
-    </ul>
+    <h2 onclick="toggleSection('strengths-content')" style="cursor:pointer;">🧠 Strengths ▾</h2>
+    <div id="strengths-content" style="display:none;">
+      <ul>
+        <li>Thrive under pressure, delivering clarity and results in high-stakes environments</li>
+        <li>Lead and manage teams of all sizes with empathy and precision</li>
+        <li>Exceptional communicator and educator, translating complexity into actionable insight</li>
+      </ul>
+    </div>
   </div>
 
   <div class="section" id="projects">
     <h2>🚀 Featured Projects</h2>
     <div class="dashboard-tile">
-  <h3>Workforce Dashboard Automation</h3>
-  <p>Integrated SQL, Power BI, and Smartsheet to track KPIs across programs.</p>
-
-</div>
-
+      <h3>Workforce Dashboard Automation</h3>
+      <p>Integrated SQL, Power BI, and Smartsheet to track KPIs across programs.</p>
+    </div>
     <div class="dashboard-tile">
       <h3>Equity-Focused SOPs</h3>
       <p>Embedded compliance and equity safeguards into hiring and outreach workflows.</p>
@@ -117,44 +136,35 @@
       <h3>Cross-Agency Data Harmonization</h3>
       <p>Standardized definitions and reporting formats across health and workforce systems.</p>
     </div>
+
     <div class="section" id="dashboard">
-  <h2>📈 Dashboard Preview</h2>
-  <p>Explore key metrics by category:</p>
+      <h2>📈 Dashboard Preview</h2>
+      <p>Explore key metrics by category:</p>
 
-  <div class="filters">
-    <button class="filter-button" onclick="showDashboard('equity')">Equity Metrics</button>
-    <button class="filter-button" onclick="showDashboard('finance')">Financial Trends</button>
-    <button class="filter-button" onclick="showDashboard('workforce')">Workforce KPIs</button>
-  </div>
+      <div class="filters">
+        <button class="filter-button" onclick="showDashboard(event, 'equity')">Equity Metrics</button>
+        <button class="filter-button" onclick="showDashboard(event, 'finance')">Financial Trends</button>
+        <button class="filter-button" onclick="showDashboard(event, 'workforce')">Workforce KPIs</button>
+      </div>
 
-  <div id="equity" class="dashboard-tile" style="display:block;">
-    <h3>Equity Metrics</h3>
-    <img src="dashboard-preview.png" alt="Equity Dashboard" class="dashboard" style="width:100%; border:1px solid #ccc; margin-top:15px;">
-    <p style="font-style:italic; color:#555;">Visualizing equity ratios, outreach gaps, and inclusion scores.</p>
-  </div>
+      <div id="equity" class="dashboard-tile" style="display:block;">
+        <h3>Equity Metrics</h3>
+        <img src="dashboard-preview.png" alt="Equity Dashboard" class="dashboard" style="width:100%; border:1px solid #ccc; margin-top:15px;">
+        <p style="font-style:italic; color:#555;">Visualizing equity ratios, outreach gaps, and inclusion scores.</p>
+      </div>
 
-  <div id="finance" class="dashboard-tile" style="display:none;">
-    <h3>Financial Trends</h3>
-    <img src="dashboard-preview.png" alt="Finance Dashboard" class="dashboard" style="width:100%; border:1px solid #ccc; margin-top:15px;">
-    <p style="font-style:italic; color:#555;">Tracking receivables, payables, and debt-to-equity ratios.</p>
-  </div>
+      <div id="finance" class="dashboard-tile" style="display:none;">
+        <h3>Financial Trends</h3>
+        <img src="dashboard-preview.png" alt="Finance Dashboard" class="dashboard" style="width:100%; border:1px solid #ccc; margin-top:15px;">
+        <p style="font-style:italic; color:#555;">Tracking receivables, payables, and debt-to-equity ratios.</p>
+      </div>
 
-  <div id="workforce" class="dashboard-tile" style="display:none;">
-    <h3>Workforce KPIs</h3>
-    <img src="dashboard-preview.png" alt="Workforce Dashboard" class="dashboard" style="width:100%; border:1px solid #ccc; margin-top:15px;">
-    <p style="font-style:italic; color:#555;">Monitoring hiring velocity, retention, and program coverage.</p>
-  </div>
-</div>
-
-<script>
-  function showDashboard(section) {
-    document.getElementById('equity').style.display = 'none';
-    document.getElementById('finance').style.display = 'none';
-    document.getElementById('workforce').style.display = 'none';
-    document.getElementById(section).style.display = 'block';
-  }
-</script>
-
+      <div id="workforce" class="dashboard-tile" style="display:none;">
+        <h3>Workforce KPIs</h3>
+        <img src="dashboard-preview.png" alt="Workforce Dashboard" class="dashboard" style="width:100%; border:1px solid #ccc; margin-top:15px;">
+        <p style="font-style:italic; color:#555;">Monitoring hiring velocity, retention, and program coverage.</p>
+      </div>
+    </div>
   </div>
 
   <div class="section" id="contact">
@@ -168,5 +178,11 @@
     </div>
   </div>
 
-</body>
-</html>
+  <script>
+    function toggleSection(id) {
+      const el = document.getElementById(id);
+      el.style.display = el.style.display === 'none' ? 'block' : 'none';
+    }
+
+    function showDashboard(event, section) {
+      const sections = ['equity', 'finance', 'workforce'];
