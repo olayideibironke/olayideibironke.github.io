@@ -48,6 +48,7 @@
 
 
 
+[![GitHub](https://img.shields.io/badge/GitHub-olayideibironke-2c3e50?logo=github)](https://github.com/olayideibironke)
 
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=olayideibironke&theme=default)
