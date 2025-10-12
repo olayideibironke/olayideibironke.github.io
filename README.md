@@ -5,6 +5,10 @@
   Empowering systems that center equity, transparency, and measurable impact.
 </p>
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=olayideibironke&show_icons=true&theme=default)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=olayideibironke&layout=compact)
+
+
 ---
 
 ### 🔍 What I Do
