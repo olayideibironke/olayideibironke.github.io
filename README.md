@@ -58,8 +58,8 @@
 
 ### 🟦 Equity Metrics Dashboard
 **What it does:** Tracks outreach and inclusion across public programs  
-**How I built it:** Designed in Tableau with embedded filters and KPIs; used SQL to prep multi-agency data  
-**Impact:** Adopted by 3 agencies—no meetings required for onboarding
+**How I built it:** Designed in Tableau with embedded filters and KPIs; used SQL to prep multi agency data  
+**Impact:** Adopted by 3 agencies, no meetings required for onboarding
 
 ---
 
@@ -105,7 +105,7 @@
   Interactive map showing service distribution and demographic overlays. Built for public sector transparency and outreach planning.
 
 - **Fun Facts Section**  
-  A playful, personal touch to your portfolio—because data leaders have personality too. Includes cultural nods, dashboard trivia, and visual flair.
+  A playful, personal touch to your portfolio, because data leaders have personality too. Includes cultural nods, dashboard trivia, and visual flair.
 
 </details>
 
