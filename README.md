@@ -66,17 +66,7 @@
 
 </details>
 
-
-## 🌟 Featured Projects
-
-[![Equity Metrics Dashboard](https://img.shields.io/badge/Equity%20Dashboard-View-blue?style=for-the-badge&logo=tableau)](https://github.com/olayideibironke/equity-dashboard)
-[![Workforce KPIs](https://img.shields.io/badge/Workforce%20KPIs-Explore-green?style=for-the-badge&logo=powerbi)](https://github.com/olayideibironke/workforce-kpis)
-[![DC Ward Map](https://img.shields.io/badge/DC%20Ward%20Map-Visualize-orange?style=for-the-badge&logo=mapbox)](https://github.com/olayideibironke/dc-ward-map)
-[![Fun Facts Section](https://img.shields.io/badge/Fun%20Facts-Discover-purple?style=for-the-badge&logo=github)](https://github.com/olayideibironke/fun-facts)
-
-</details>
  
-
 ### 📫 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Olayide%20Ibironke-blue?logo=linkedin)](https://www.linkedin.com/in/olayide-ibironke-5b376b196)
