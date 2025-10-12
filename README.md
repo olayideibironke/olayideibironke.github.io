@@ -24,25 +24,7 @@
 | ![Financial Trends](https://olayideibironke.github.io/financial-trends.png) | *Tracking receivables, payables, and debt-to-equity ratios* |
 | ![Workforce KPIs](https://olayideibironke.github.io/workforce-kpis.png) | *Monitoring hiring velocity, retention, and program coverage* |
 
-## 🌟 Featured Projects
 
-[![Equity Metrics Dashboard](https://img.shields.io/badge/Equity%20Dashboard-View-blue?style=for-the-badge&logo=tableau)](https://github.com/olayideibironke/equity-dashboard)
-
-[![Workforce KPIs](https://img.shields.io/badge/Workforce%20KPIs-Explore-green?style=for-the-badge&logo=powerbi)](https://github.com/olayideibironke/workforce-kpis)
-
-[![DC Ward Map](https://img.shields.io/badge/DC%20Ward%20Map-Visualize-orange?style=for-the-badge&logo=mapbox)](https://github.com/olayideibironke/dc-ward-map)
-
-[![Fun Facts Section](https://img.shields.io/badge/Fun%20Facts-Discover-purple?style=for-the-badge&logo=github)](https://github.com/olayideibironke/fun-facts)
-
-<details>
-  <summary>📁 Project Descriptions</summary>
-
-- **Equity Metrics Dashboard**: Tracks outreach and inclusion across programs, designed for executive decision-making and transparency.
-- **Workforce KPIs**: Visualizes hiring trends, retention, and diversity metrics across agencies.
-- **DC Ward Map**: Interactive map showing service distribution and demographic overlays.
-- **Fun Facts Section**: A playful, personal touch to your portfolio, because data leaders have personality too.
-
-</details>
 
 ## 🌟 Featured Projects
 
