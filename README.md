@@ -40,7 +40,7 @@
 - **Equity Metrics Dashboard**: Tracks outreach and inclusion across programs, designed for executive decision-making and transparency.
 - **Workforce KPIs**: Visualizes hiring trends, retention, and diversity metrics across agencies.
 - **DC Ward Map**: Interactive map showing service distribution and demographic overlays.
-- **Fun Facts Section**: A playful, personal touch to your portfolio—because data leaders have personality too.
+- **Fun Facts Section**: A playful, personal touch to your portfolio, because data leaders have personality too.
 
 </details>
 
