@@ -74,7 +74,7 @@
 [![DC Ward Map](https://img.shields.io/badge/DC%20Ward%20Map-Visualize-orange?style=for-the-badge&logo=mapbox)](https://github.com/olayideibironke/dc-ward-map)
 [![Fun Facts Section](https://img.shields.io/badge/Fun%20Facts-Discover-purple?style=for-the-badge&logo=github)](https://github.com/olayideibironke/fun-facts)
 
-<details>
+</details>
  
 
 ### 📫 Connect With Me
