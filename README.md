@@ -75,23 +75,7 @@
 [![Fun Facts Section](https://img.shields.io/badge/Fun%20Facts-Discover-purple?style=for-the-badge&logo=github)](https://github.com/olayideibironke/fun-facts)
 
 <details>
-  <summary>📁 Project Descriptions</summary>
-
-- **Equity Metrics Dashboard**  
-  Built to track outreach and inclusion across public programs. Designed for executive decision-making and operational transparency.
-
-- **Workforce KPIs**  
-  Visualizes hiring trends, retention, and diversity metrics across agencies. Helps leaders identify gaps and drive equity.
-
-- **DC Ward Map**  
-  Interactive map showing service distribution and demographic overlays. Built for public sector transparency and outreach planning.
-
-- **Fun Facts Section**  
-  A playful, personal touch to your portfolio, because data leaders have personality too. Includes cultural nods, dashboard trivia, and visual flair.
-
-</details>
-
----
+ 
 
 ### 📫 Connect With Me
 
