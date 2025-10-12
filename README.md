@@ -44,6 +44,29 @@
 
 </details>
 
+## 🌟 Featured Projects
+
+[![Equity Metrics Dashboard](https://img.shields.io/badge/Equity%20Dashboard-View-blue?style=for-the-badge&logo=tableau)](https://github.com/olayideibironke/equity-dashboard)
+[![Workforce KPIs](https://img.shields.io/badge/Workforce%20KPIs-Explore-green?style=for-the-badge&logo=powerbi)](https://github.com/olayideibironke/workforce-kpis)
+[![DC Ward Map](https://img.shields.io/badge/DC%20Ward%20Map-Visualize-orange?style=for-the-badge&logo=mapbox)](https://github.com/olayideibironke/dc-ward-map)
+[![Fun Facts Section](https://img.shields.io/badge/Fun%20Facts-Discover-purple?style=for-the-badge&logo=github)](https://github.com/olayideibironke/fun-facts)
+
+<details>
+  <summary>📁 Project Descriptions</summary>
+
+- **Equity Metrics Dashboard**  
+  Built to track outreach and inclusion across public programs. Designed for executive decision-making and operational transparency.
+
+- **Workforce KPIs**  
+  Visualizes hiring trends, retention, and diversity metrics across agencies. Helps leaders identify gaps and drive equity.
+
+- **DC Ward Map**  
+  Interactive map showing service distribution and demographic overlays. Built for public sector transparency and outreach planning.
+
+- **Fun Facts Section**  
+  A playful, personal touch to your portfolio—because data leaders have personality too. Includes cultural nods, dashboard trivia, and visual flair.
+
+</details>
 
 ---
 
