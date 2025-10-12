@@ -51,6 +51,47 @@
 [![DC Ward Map](https://img.shields.io/badge/DC%20Ward%20Map-Visualize-orange?style=for-the-badge&logo=mapbox)](https://github.com/olayideibironke/dc-ward-map)
 [![Fun Facts Section](https://img.shields.io/badge/Fun%20Facts-Discover-purple?style=for-the-badge&logo=github)](https://github.com/olayideibironke/fun-facts)
 
+---
+
+<details>
+  <summary>📁 Project Descriptions & How I Built Them</summary>
+
+### 🟦 Equity Metrics Dashboard
+**What it does:** Tracks outreach and inclusion across public programs  
+**How I built it:** Designed in Tableau with embedded filters and KPIs; used SQL to prep multi-agency data  
+**Impact:** Adopted by 3 agencies—no meetings required for onboarding
+
+---
+
+### 🟩 Workforce KPIs
+**What it does:** Visualizes hiring trends, retention, and diversity metrics  
+**How I built it:** Power BI + Excel + Smartsheet integration; used DAX for calculated measures  
+**Impact:** Helped leadership identify equity gaps and improve hiring practices
+
+---
+
+### 🟧 DC Ward Map
+**What it does:** Interactive map showing service distribution and demographics  
+**How I built it:** Used Mapbox and open data APIs; styled with HTML/CSS for clarity  
+**Impact:** Used in outreach planning and funding proposals
+
+---
+
+### 🟪 Fun Facts Section
+**What it does:** Adds personality to my portfolio with cultural nods and dashboard trivia  
+**How I built it:** HTML/CSS + collapsible cards + GitHub Pages  
+**Impact:** Sparks conversation and shows that data leaders can be fun too
+
+</details>
+
+
+## 🌟 Featured Projects
+
+[![Equity Metrics Dashboard](https://img.shields.io/badge/Equity%20Dashboard-View-blue?style=for-the-badge&logo=tableau)](https://github.com/olayideibironke/equity-dashboard)
+[![Workforce KPIs](https://img.shields.io/badge/Workforce%20KPIs-Explore-green?style=for-the-badge&logo=powerbi)](https://github.com/olayideibironke/workforce-kpis)
+[![DC Ward Map](https://img.shields.io/badge/DC%20Ward%20Map-Visualize-orange?style=for-the-badge&logo=mapbox)](https://github.com/olayideibironke/dc-ward-map)
+[![Fun Facts Section](https://img.shields.io/badge/Fun%20Facts-Discover-purple?style=for-the-badge&logo=github)](https://github.com/olayideibironke/fun-facts)
+
 <details>
   <summary>📁 Project Descriptions</summary>
 
