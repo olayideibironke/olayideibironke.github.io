@@ -85,7 +85,7 @@
 
 ###  Motto
 
-> “Data is not just numbers, it’s narrative, equity, and accountability in action.”
+“Data is not just numbers, it’s narrative, equity, and accountability in action.”
 
 
 
