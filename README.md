@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Olayide Ibironke 👋</h1>
+<h1 align="center">Hi, I'm Olayide Ibironke  </h1>
 
 <p align="center">
   <strong>Strategic Data & Operations Leader | Public Sector Innovator | Equity Advocate</strong><br>
@@ -7,16 +7,16 @@
 
 ---
 
-### 🔍 What I Do
+###  What I Do
 
-- 📊 **Data Strategy & Governance**: Privacy, compliance, and cross-jurisdictional data alignment  
-- 🧠 **Advanced Analytics**: SQL, Power BI, Python, Excel, Smartsheet  
-- 🏛️ **Public Sector Innovation**: Equity audits, workforce KPIs, financial transparency  
-- 🗂️ **Project Leadership**: SOPs, stakeholder engagement, scenario-based learning
+-  **Data Strategy & Governance**: Privacy, compliance, and cross-jurisdictional data alignment  
+-  **Advanced Analytics**: SQL, Power BI, Python, Excel, Smartsheet  
+-  **Public Sector Innovation**: Equity audits, workforce KPIs, financial transparency  
+-  **Project Leadership**: SOPs, stakeholder engagement, scenario-based learning
 
 ---
 
-### 🚀 Featured Projects
+###  Featured Projects
 
 | Dashboard | Description |
 |----------|-------------|
@@ -26,7 +26,7 @@
 
 
 
-## 🌟 Featured Projects
+##  Featured Projects
 
 [![Equity Metrics Dashboard](https://img.shields.io/badge/Equity%20Dashboard-View-blue?style=for-the-badge&logo=tableau)](https://github.com/olayideibironke/equity-dashboard)
 [![Workforce KPIs](https://img.shields.io/badge/Workforce%20KPIs-Explore-green?style=for-the-badge&logo=powerbi)](https://github.com/olayideibironke/workforce-kpis)
@@ -36,30 +36,30 @@
 ---
 
 <details>
-  <summary>📁 Project Descriptions & How I Built Them</summary>
+  <summary> Project Descriptions & How I Built Them</summary>
 
-### 🟦 Equity Metrics Dashboard
+###  Equity Metrics Dashboard
 **What it does:** Tracks outreach and inclusion across public programs  
 **How I built it:** Designed in Tableau with embedded filters and KPIs; used SQL to prep multi agency data  
 **Impact:** Adopted by 3 agencies, no meetings required for onboarding
 
 ---
 
-### 🟩 Workforce KPIs
+###  Workforce KPIs
 **What it does:** Visualizes hiring trends, retention, and diversity metrics  
 **How I built it:** Power BI + Excel + Smartsheet integration; used DAX for calculated measures  
 **Impact:** Helped leadership identify equity gaps and improve hiring practices
 
 ---
 
-### 🟧 DC Ward Map
+###  DC Ward Map
 **What it does:** Interactive map showing service distribution and demographics  
 **How I built it:** Used Mapbox and open data APIs; styled with HTML/CSS for clarity  
 **Impact:** Used in outreach planning and funding proposals
 
 ---
 
-### 🟪 Fun Facts Section
+###  Fun Facts Section
 **What it does:** Adds personality to my portfolio with cultural nods and dashboard trivia  
 **How I built it:** HTML/CSS + collapsible cards + GitHub Pages  
 **Impact:** Sparks conversation and shows that data leaders can be fun too
@@ -67,7 +67,7 @@
 </details>
 
  
-### 📫 Connect With Me
+###  Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Olayide%20Ibironke-blue?logo=linkedin)](https://www.linkedin.com/in/olayide-ibironke-5b376b196)
 [![GitHub Pages](https://img.shields.io/badge/Portfolio-olayideibironke.github.io-2c3e50?logo=github)](https://olayideibironke.github.io)
@@ -75,7 +75,7 @@
 
 ---
 
-### 📈 GitHub Stats
+###  GitHub Stats
 
 ![Olayide's GitHub stats](https://github-readme-stats.vercel.app/api?username=olayideibironke&show_icons=true&theme=default&hide=issues&count_private=true)
 
@@ -83,7 +83,7 @@
 
 ---
 
-### 🧭 Motto
+###  Motto
 
 > “Data is not just numbers, it’s narrative, equity, and accountability in action.”
 
